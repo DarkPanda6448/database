@@ -1,0 +1,39 @@
+.item h4{
+    position:absolute;
+    top:40%;
+    left:50%;
+
+    transform: translate(-50%,-50%);
+    opacity:0;
+}
+
+.item{
+    position:relative;
+}
+
+.item:hover h4{
+    opacity:1;
+}
+
+.item:hover img{
+    opacity:0.33;
+}
+
+body{
+    background-color:#d0f2ef;
+}
+
+head{
+    background-color: #c0faf5;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 50px;
+
+    grid-template-columns: auto auto auto auto auto;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
